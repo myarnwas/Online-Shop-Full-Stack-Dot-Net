@@ -1,0 +1,8 @@
+SELECT TOP (1000) [Id]
+      ,[Email]
+      ,[FullName]
+      ,[Password]
+      ,[IsAdmin]
+      ,[RegisterDate]
+      ,[RecoveryCode]
+  FROM [OnlineShop].[dbo].[User]
